@@ -1,0 +1,23 @@
+.container {
+    /* background: var(--main-card-bg); */
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0 0 1em currentColor);
+    animation: blinking 8s infinite alternate;
+    animation-delay: 3s;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0 0 1em currentColor;
+    animation: blinking 6s infinite alternate;
+    animation-delay: 3s;
+}
